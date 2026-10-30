@@ -105,3 +105,7 @@ The web app requests camera access only after it is opened. Captures are stored 
 ## Validation status
 
 This source has not passed a production build in this environment because dependency installation timed out. No physical Android phone or desktop browser tests were run here. Do not label the app production-ready until `npm install`, `npm run build`, and real camera / recording / AI / backup tests pass on target browsers.
+
+## GitHub Pages deployment (repository `Camera-`)
+
+This project site uses the Vite base path `/Camera-/`. Deploy the generated `dist/` directory, not the raw TypeScript source tree. A GitHub Actions workflow is included at `.github/workflows/deploy.yml`; push this project to the `main` branch and enable **Settings → Pages → Build and deployment → GitHub Actions**. The workflow installs dependencies, builds the app, and publishes `dist/`.
