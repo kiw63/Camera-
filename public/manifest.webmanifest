@@ -1,0 +1,31 @@
+{
+  "name": "BLINK by Vella Studio",
+  "short_name": "BLINK",
+  "description": "Local-first camera, Live Photo, cinematic video and AI photo studio.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#090c0a",
+  "theme_color": "#090c0a",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./blink-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./blink-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./blink-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
